@@ -1,0 +1,23 @@
+body{
+    background-image: url("softball\ -\ Copy\ \(2\).jpeg");
+    background-size: cover;
+    font-family:Verdana,  Tahoma, sans-serif;
+}
+h1{
+    color: red;
+}
+li{
+    color: rgb(192, 231, 62);
+}
+h4{
+    color: red;
+}
+p{
+    color: rgb(179, 199, 0);
+}
+.Box1{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
