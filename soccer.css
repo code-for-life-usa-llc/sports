@@ -3,12 +3,16 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-style:dotted ;
 }
+
 body {
     background-color: purple;
 }
+
 img {
     border-style: ridge;
 }
+
+
 .Box {
 display: flex;
 width: 300px;
@@ -18,14 +22,44 @@ margin: 20px;
 text-shadow:2px 2px green;
 color: white;
 background-color: black;
-<<<<<<< HEAD
-}
-=======
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 
-
-
-
-
->>>>>>> a8b284b18fc5ecc3eb4363618c9a7a072da2f931
+li {
+    float: left;
+    font-size: 20px;
+  }
+  
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+   li a:hover {
+    background-color:rgb(0, 0, 0);
+  }
