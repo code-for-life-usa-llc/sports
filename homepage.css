@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://787sports.co.uk/wp-content/uploads/2019/02/fotolia_190038155.jpg);
+    background-size: cover;
+}
+ul {
+    font-family: cursive;
+    color:plum;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+}
+li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:plum;
+  }
+  h1 {
+      background-color: white;
+      font-size: 40px;
+  }  
+  p {
+      background-color: orange;
+    font-size: 30px;
+  }
+  h2 {
+      background-color: white;
+      font-size: 40px;
+  }
+h3 {
+    background-color: white;
+    font-size: 40px;
+}
+h4 {
+background-color:white;
+font-size: 40px;
+}

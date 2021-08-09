@@ -1,0 +1,21 @@
+h1 {
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style:dotted ;
+}
+body {
+    background-color: purple;
+}
+img {
+    border-style: ridge;
+}
+.Box {
+display: flex;
+width: 300px;
+border: 15px solid green;
+padding: 50px;
+margin: 20px;
+text-shadow:2px 2px green;
+color: white;
+background-color: black;
+}
