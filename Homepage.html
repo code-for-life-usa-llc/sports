@@ -5,12 +5,12 @@
 </head>
 <Body>
     <ul id="nav">
-        <li><a href="home.html">Home</a></li>
+        <li id="me"><a href="Homepage.html">Home</a></li>
         <li><a href="basketball.html">Basketball</a></li>
         <li><a href="Softball.html">Softball</a></li>
         <li><a href="Track.html">Track</a></li>
         <li><a href="soccer.html">Soccer</a></li>
-        <li><a href="Aboutus.html">About Us</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
               </ul>
 <div align='center'>
     <br><br><br>
@@ -45,7 +45,7 @@
 <p> My Website is about Softball and Facts that can help and teach you about Softball! </p>
 <button><a href="Softball.html">Click Here To Learn More</a></button>
 <script>
-    document.addEventListener("dblclick", myfunction);
+    document.getElementById("me").addEventListener("click", myfunction);
     function myfunction (){
         alert("you are already on the homepage")
     }
